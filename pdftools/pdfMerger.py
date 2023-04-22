@@ -22,7 +22,7 @@ def main(argv):
     try:
         docnames = argv[1:]
         pdfmerger(docnames)
-    except getopt.GetoptError:
+    except:
         print('python -m pdfSplitter <filename-to-write> <filename-to-merge> <filename-to-merge> ...')
         sys.exit(2)
 

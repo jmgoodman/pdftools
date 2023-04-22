@@ -17,7 +17,7 @@ def main(argv):
     try:
         docname = argv[1]
         pdfsplitter(docname)
-    except getopt.GetoptError:
+    except:
         print('python -m pdfSplitter <filename>')
         sys.exit(2)
 
