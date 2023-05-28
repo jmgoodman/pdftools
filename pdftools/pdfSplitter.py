@@ -18,7 +18,7 @@ def main(argv):
         docname = argv[1]
         pdfsplitter(docname)
     except:
-        print('python -m pdfSplitter <filename>')
+        print('usage: pdfSplitter.py <filename>')
         sys.exit(2)
 
 if __name__ == "__main__":

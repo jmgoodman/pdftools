@@ -23,7 +23,7 @@ def main(argv):
         docnames = argv[1:]
         pdfmerger(docnames)
     except:
-        print('python -m pdfSplitter <filename-to-write> <filename-to-merge> <filename-to-merge> ...')
+        print('usage: pdfMerger.py <filename-to-write> <filename-to-merge> <filename-to-merge> ...')
         sys.exit(2)
 
 if __name__ == "__main__":
