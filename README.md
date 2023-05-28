@@ -1,5 +1,5 @@
 # pdftools
- cl tools for splitting and merging pdfs: even if you pay for acrobat, it still doesn't do this all that well!
+ cl python tools for splitting and merging pdfs
 
 # Installation (Windows)
 https://correlated.kayako.com/article/40-running-python-scripts-from-anywhere-under-windows
